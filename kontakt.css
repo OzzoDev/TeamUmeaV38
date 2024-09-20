@@ -35,8 +35,8 @@ header section p{
 header section a{
     text-decoration: none;
 }
-
-  
+/*slut på header kod*/
+ /*kod för main*/ 
 main section{
     display:grid;
     padding: 20px;
@@ -54,12 +54,7 @@ main section img{
     height:auto;
     border-radius: 8px;
 }
-aside{
-    display:none;
-    height: 100%;
-    width: auto;
 
-}
 /*ipad air*/
 @media (min-width:820px) {
     main section{
