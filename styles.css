@@ -42,3 +42,33 @@ body {
   padding: 0;
 }
 /*Lösning för bild och text i header*/
+
+header section{
+  position: relative;
+  width: 100%;
+  height: 150px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Object fit: cover låter höjden på bilden va samma, men skalar den efter storlek*/
+header section img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+header section p{
+  color: white;
+  font-size: 40px;
+  z-index: 1;
+  text-align: center;
+  font-weight: bold;
+  
+}
+header section a{
+  text-decoration: none;
+}
