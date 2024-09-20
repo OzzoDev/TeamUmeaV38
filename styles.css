@@ -61,7 +61,7 @@ header section img{
   object-fit: cover;
   z-index: -1;
 }
-header section p{
+header section h1{
   color: white;
   font-size: 40px;
   z-index: 1;
