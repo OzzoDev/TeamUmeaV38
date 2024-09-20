@@ -67,4 +67,8 @@ header section p{
   z-index: 1;
   text-align: center;
   font-weight: bold;
+  
+}
+header section a{
+  text-decoration: none;
 }

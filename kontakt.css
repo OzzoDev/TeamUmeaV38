@@ -32,7 +32,9 @@ header section p{
     text-align: center;
     font-weight: bold;
   }
-
+header section a{
+    text-decoration: none;
+}
 
   
 main section{
@@ -52,6 +54,12 @@ main section img{
     height:auto;
     border-radius: 8px;
 }
+aside{
+    display:none;
+    height: 100%;
+    width: auto;
+
+}
 /*ipad air*/
 @media (min-width:820px) {
     main section{
@@ -59,13 +67,20 @@ main section img{
         gap:20px;
     }
     main section img{
-        height:600px;
-        width:auto;
+        height:400px;
+        width:400px;
     }
 }
 /*dator*/
-@media (min-width:1024) {
+@media (min-width:1024px) {
     main section{
-        background-color: black;
+        grid-template-columns: repeat(2,1fr);
+        gap:20px;
+    }
+    main section img{
+        height:400px;
+        width:400px;
     }
 }
+
+
