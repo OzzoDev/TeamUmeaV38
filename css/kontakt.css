@@ -76,7 +76,7 @@ main section img {
 /*dator*/
 @media (min-width: 1024px) {
   main section {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
   }
   main section img {
